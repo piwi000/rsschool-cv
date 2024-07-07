@@ -1,9 +1,12 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
 body {
     background-image: url("../rsschool-cv/assets/background.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 .main-container {
@@ -11,5 +14,14 @@ body {
     margin-right: auto;
     margin-bottom: 350px;
     width: 40em;
-  
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.contacts-and-avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
